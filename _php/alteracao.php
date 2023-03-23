@@ -23,15 +23,14 @@
   
 <?php 
 
+
         require_once "conexao01.php";
 
         
       //conexão e seleção do banco de dados 
         $con = novaConexao();
 
-        //receber os valores do formulário e colocálos em variáveis
-
-
+        
         if (isset($_POST["nome"])) {
 
             $nome = $_POST["nome"];

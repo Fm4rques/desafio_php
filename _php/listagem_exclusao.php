@@ -8,7 +8,6 @@
 
 require_once "conexao01.php";
 
-
 //conexÃ£o e seleção do banco de dados 
 $con = novaConexao();
 
