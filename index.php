@@ -10,6 +10,7 @@
     // coleta o IP do usuário
     $before_ip = $_SERVER['REMOTE_ADDR'];
 
+   
     if (isset($_POST['email_usuario']) || isset($_POST['senha_usuario']) ) {
 
         if (strlen($_POST['email_usuario']) == 0) {
@@ -47,8 +48,7 @@
             } else {
                 
                 echo  "<script>alert('Email ou senha incorretos !');</script>";
-                
-                
+                         
 
                 }
 
@@ -56,7 +56,8 @@
 
         }
 
-          
+
+
 ?>
 
 
